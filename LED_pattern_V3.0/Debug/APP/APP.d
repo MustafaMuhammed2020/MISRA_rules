@@ -1,5 +1,4 @@
-MCAL/extint/INT_program.d MCAL/extint/INT_program.o: \
- ../MCAL/extint/INT_program.c \
+APP/APP.d APP/APP.o: ../APP/APP.c \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\io.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\sfr_defs.h \
@@ -12,10 +11,11 @@ MCAL/extint/INT_program.d MCAL/extint/INT_program.o: \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\version.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\fuse.h \
  c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h \
- ../MCAL/extint/../../SERVICE/standard_types.h \
- ../MCAL/extint/../../SERVICE/common_macros.h \
- ../MCAL/extint/INT_interface.h ../MCAL/extint/INT_private.h \
- ../MCAL/extint/INT_config.h
+ ../APP/../SERVICE/common_macros.h ../APP/../SERVICE/standard_types.h \
+ ../APP/../MCAL/dio/DIO_interface.h ../APP/../HAL/led/LED_interface.h \
+ ../APP/../MCAL/timer0/TMR0_interface.h \
+ ../APP/../MCAL/extint/INT_interface.h ../APP/../HAL/led/LED_config.h \
+ ../APP/APP.h
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\interrupt.h:
 
@@ -41,12 +41,18 @@ c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\
 
 c:\program\ files\ (x86)\atmel\studio\7.0\toolchain\avr8\avr8-gnu-toolchain\avr\include\avr\lock.h:
 
-../MCAL/extint/../../SERVICE/standard_types.h:
+../APP/../SERVICE/common_macros.h:
 
-../MCAL/extint/../../SERVICE/common_macros.h:
+../APP/../SERVICE/standard_types.h:
 
-../MCAL/extint/INT_interface.h:
+../APP/../MCAL/dio/DIO_interface.h:
 
-../MCAL/extint/INT_private.h:
+../APP/../HAL/led/LED_interface.h:
 
-../MCAL/extint/INT_config.h:
+../APP/../MCAL/timer0/TMR0_interface.h:
+
+../APP/../MCAL/extint/INT_interface.h:
+
+../APP/../HAL/led/LED_config.h:
+
+../APP/APP.h:

@@ -222,8 +222,6 @@ void TMR0_stop(void)
 /*******************************************************************************/
 enu_timer0_error_status_t TMR0_delay_ms(uint32_t DELAY_MS)
 {
-	
-	
 	enu_timer0_error_status_t  enu_l_timer0delayms_retval = TIMER0_SUCCEED ; /** LOCAL VARIABLE TO RETURN THE STATUS OF INITIALIZATION **/
 	
 	#if TIMER0_PRESCALER_VAL == PRESCALER_1024  /** CHECK THE PRESCALLER FROM CONFIG FILE **/

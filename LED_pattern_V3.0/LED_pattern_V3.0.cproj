@@ -133,6 +133,12 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="APP\APP.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="APP\APP.h">
+      <SubType>compile</SubType>
+    </Compile>
     <Compile Include="HAL\led\LED_config.h">
       <SubType>compile</SubType>
     </Compile>
@@ -192,6 +198,7 @@
     <Folder Include="MCAL\dio" />
     <Folder Include="MCAL\extint" />
     <Folder Include="MCAL\timer0" />
+    <Folder Include="APP" />
     <Folder Include="SERVICE" />
   </ItemGroup>
   <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Compiler.targets" />

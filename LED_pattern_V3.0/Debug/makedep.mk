@@ -2,6 +2,8 @@
 # Automatically-generated file. Do not edit or delete the file
 ################################################################################
 
+APP\APP.c
+
 HAL\led\LED_program.c
 
 main.c
